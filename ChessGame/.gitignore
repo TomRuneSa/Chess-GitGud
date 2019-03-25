@@ -1,0 +1,23 @@
+*.class
+*.vpp.bak*
+*.vpp.lck
+
+## OS Specific
+.DS_Store
+
+## ignores recommended by github for intellij
+.idea
+*.iml
+## just in case
+compiler.xml
+misc.xml
+modules.xml
+workspace.xml
+
+# ignore maven build files
+target/
+
+# ignore latex build files 
+.gz
+.aux 
+.log
